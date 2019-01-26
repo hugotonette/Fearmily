@@ -4,9 +4,8 @@ using UnityEngine;
 
 public class EnemyVision : MonoBehaviour
 {
-    GameObject player;
-    Collider2D pl_col;
-    PlayerStats pl_stats;
+    private GameObject player;
+    private PlayerStats pl_stats;
     public int sanity_damage = 50;
     // Start is called before the first frame update
     void Start()
@@ -23,7 +22,12 @@ public class EnemyVision : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D enemy)
     {
-       //pl_stats.sanity = pl_stats.sanity-sanity_damage;
+       pl_stats.sanity = pl_stats.sanity-sanity_damage;
         Debug.Log("dano " + sanity_damage);
+        Debug.Log("bida " + pl_stats.sanity);
+        if (pl_stats.sanity <= 0)
+        {
+            pl_stats.vivo = false;
+        }
     }
 }

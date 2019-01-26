@@ -2,13 +2,17 @@
 
 public class GameManager : MonoBehaviour
 {
-
+    private GameObject player;
+    private PlayerStats pl_stats;
     public GameObject PauseCanvas;
     //public GameObject MainCanvas;
     // Start is called before the first frame update
+
+
     void Start()
     {
-        
+        player = GameObject.Find("Player");
+        pl_stats = player.transform.GetComponent<PlayerStats>();
     }
 
     // Update is called once per frame
@@ -31,6 +35,23 @@ public class GameManager : MonoBehaviour
             }
         }
 
+        if (pl_stats.vivo == false)
+        {
+            perdeu();
+        }
+        if (pl_stats.win == true)
+        {
+            ganhou();
+        }
+    }
+
+    public void ganhou()
+    {
+        Debug.Log("ganhou");
+    }
+    public void perdeu()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene("StartMenu");
     }
 
 
