@@ -9,8 +9,7 @@ public class EnemyBehaviour : MonoBehaviour
     Transform currentPatrolPoint;
     private Vector3 direction = Vector3.up;
     int patrolIndex;
-    private SpriteRenderer _sprite;
-    public GameObject enemySprite;
+    private GameObject _sprite;
 
     void Start (){
         patrolIndex = 0;
@@ -19,11 +18,14 @@ public class EnemyBehaviour : MonoBehaviour
     }
 
     void Awake(){
-        _sprite = enemySprite.GetComponent<SpriteRenderer>();
+        //_sprite = enemySprite.GetComponent<SpriteRenderer>();
+        _sprite = GameObject.Find("irmao-pb");
     }
 
     void Update(){
         this.transform.Translate(direction * Time.deltaTime * speed);
+        _sprite.transform.position = this.transform.position;
+
         if(Vector3.Distance(transform.position, currentPatrolPoint.position) < .1f)
         {
 
@@ -41,9 +43,8 @@ public class EnemyBehaviour : MonoBehaviour
         Vector3 pointDir = currentPatrolPoint.position - transform.position;
 
         if(pointDir.x < 0){
-            _sprite.flipX = true;
-        }else{
-            _sprite.flipX = false;
+           // _sprite.transform.Rotate(Vector3.right );
+            _sprite.transform.rotation = Quaternion.Euler(-10, 0,0);
         }
         float angle = Mathf.Atan2(pointDir.y, pointDir.x) * Mathf.Rad2Deg - 90f;
 
