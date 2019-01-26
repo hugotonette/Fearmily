@@ -6,7 +6,7 @@ public class EnemyVision : MonoBehaviour
 {
     private GameObject player;
     private PlayerStats pl_stats;
-    public int sanity_damage = 50;
+    public int sanity_damage = 1;
     // Start is called before the first frame update
     void Start()
     {

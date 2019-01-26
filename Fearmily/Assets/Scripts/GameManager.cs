@@ -66,7 +66,7 @@ public class GameManager : MonoBehaviour
     }
 
     public void SanityDecrease(){
-        
+        //pl_stats.sanity--;
         StartCoroutine(Wait(tempo));
     }
 
