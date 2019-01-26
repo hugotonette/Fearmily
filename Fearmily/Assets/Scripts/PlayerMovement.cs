@@ -26,6 +26,5 @@ public class PlayerMovement : MonoBehaviour
             _rb.velocity = new Vector2(MoveSpeed, 0);
         else
             _rb.velocity = new Vector2(0, 0);
-       
     }
 }
