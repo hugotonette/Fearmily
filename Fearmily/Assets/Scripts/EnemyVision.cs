@@ -11,8 +11,8 @@ public class EnemyVision : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        player = GameObject.Find("Player");
-        pl_col = player.GetComponent<Collider2D>();
+        //player = GameObject.Find("Player");
+        //pl_col = player.GetComponent<Collider2D>();
     }
 
     // Update is called once per frame
@@ -21,9 +21,9 @@ public class EnemyVision : MonoBehaviour
         
     }
 
-    void OnCollisionEnter(Collision pl_col)
+    public void OnTriggerEnter2D(Collider2D enemy)
     {
-        sanity_danos = sanity_danos++;
+        sanity_danos++;
         Debug.Log("dano " + sanity_danos);
     }
 }
