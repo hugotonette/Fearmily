@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
@@ -6,9 +7,13 @@ public class GameManager : MonoBehaviour
     private PlayerStats pl_stats;
     public GameObject PauseCanvas;
     //public GameObject MainCanvas;
+    public int tempo = 10;
     // Start is called before the first frame update
 
 
+    void Awake(){
+        StartCoroutine(Wait(tempo));
+    }
     void Start()
     {
         player = GameObject.Find("Player");
@@ -52,6 +57,17 @@ public class GameManager : MonoBehaviour
     public void perdeu()
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene("StartMenu");
+    }
+
+    IEnumerator Wait(int tempo)
+    {
+        yield return new WaitForSeconds(tempo);
+        SanityDecrease();
+    }
+
+    public void SanityDecrease(){
+        
+        StartCoroutine(Wait(tempo));
     }
 
 

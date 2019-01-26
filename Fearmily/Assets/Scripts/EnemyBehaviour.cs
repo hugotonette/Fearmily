@@ -41,10 +41,8 @@ public class EnemyBehaviour : MonoBehaviour
         Vector3 pointDir = currentPatrolPoint.position - transform.position;
 
         if(pointDir.x < 0){
-            Debug.Log("Indo pra esquerda, vira");
             _sprite.flipX = true;
         }else{
-            Debug.Log("Indo pra direita, normal");
             _sprite.flipX = false;
         }
         float angle = Mathf.Atan2(pointDir.y, pointDir.x) * Mathf.Rad2Deg - 90f;
