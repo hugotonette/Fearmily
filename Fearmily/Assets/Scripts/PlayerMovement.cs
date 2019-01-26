@@ -7,11 +7,11 @@ public class PlayerMovement : MonoBehaviour
     public Controls PlayerControl;
     public float MoveSpeed = 10;
 
-    private Rigidbody2D _rb;
+    private Rigidbody _rb;
 
     private void Awake()
     {
-        _rb = this.gameObject.GetComponent<Rigidbody2D>();
+        _rb = this.gameObject.GetComponent<Rigidbody>();
     }
 
     private void FixedUpdate()
@@ -26,6 +26,5 @@ public class PlayerMovement : MonoBehaviour
             _rb.velocity = new Vector2(MoveSpeed, 0);
         else
             _rb.velocity = new Vector2(0, 0);
-       
     }
 }
