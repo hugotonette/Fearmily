@@ -20,11 +20,7 @@ public class EnemyBehaviour : MonoBehaviour
         this.transform.Translate(direction * Time.deltaTime * speed);
         if(Vector3.Distance(transform.position, currentPatrolPoint.position) < .1f)
         {
-            // if(direction == Vector3.left)
-            //     direction = Vector3.right;
-            // else
-            //     direction = Vector3.left;
-            
+
             if(patrolIndex + 1 < patrolPoints.Length)
             {
                 patrolIndex++;
