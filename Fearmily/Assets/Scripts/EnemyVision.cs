@@ -12,7 +12,7 @@ public class EnemyVision : MonoBehaviour
     void Start()
     {
         player = GameObject.Find("Player");
-        pl_stats = player.GetComponent<PlayerStats>();
+        pl_stats = player.transform.GetComponent<PlayerStats>();
     }
 
     // Update is called once per frame
@@ -23,7 +23,7 @@ public class EnemyVision : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D enemy)
     {
-        pl_stats.sanity = pl_stats.sanity-sanity_damage;
+       //pl_stats.sanity = pl_stats.sanity-sanity_damage;
         Debug.Log("dano " + sanity_damage);
     }
 }
