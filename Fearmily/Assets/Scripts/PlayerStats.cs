@@ -18,6 +18,6 @@ public class PlayerStats : MonoBehaviour
 
     private void Update()
     {
-        //sanity_bar.value = sanity;
+        sanity_bar.value = sanity;
     }
 }
