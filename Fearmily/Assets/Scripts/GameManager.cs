@@ -72,7 +72,7 @@ public class GameManager : MonoBehaviour
     }
 
     public void SanityDecrease(){
-        Debug.Log(pl_stats.sanity);
+        //Debug.Log(pl_stats.sanity);
         pl_stats.sanity--;
         StartCoroutine("Wait");
     }

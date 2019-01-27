@@ -38,7 +38,7 @@ public class EnemyVision : MonoBehaviour
             return;
         }
         pl_stats.sanity = pl_stats.sanity - sanity_damage;
-        Debug.Log("dano " + sanity_damage);
+        //Debug.Log("dano " + sanity_damage);
         //Debug.Log("vida " + pl_stats.sanity);
         if (pl_stats.sanity <= 0)
         {
