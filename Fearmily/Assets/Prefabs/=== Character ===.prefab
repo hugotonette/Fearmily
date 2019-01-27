@@ -103,6 +103,21 @@ PrefabInstance:
       propertyPath: PlayerControl
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 3248214054272356771, guid: 4c9cd76ae8612f04ba906ea6a0706f10,
+        type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3248214054272356771, guid: 4c9cd76ae8612f04ba906ea6a0706f10,
+        type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3248214054272356771, guid: 4c9cd76ae8612f04ba906ea6a0706f10,
+        type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c9cd76ae8612f04ba906ea6a0706f10, type: 3}
 --- !u!4 &5212178927465055314 stripped
