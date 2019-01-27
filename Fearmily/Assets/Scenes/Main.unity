@@ -567,6 +567,11 @@ PrefabInstance:
       propertyPath: sanity_bar
       value: 
       objectReference: {fileID: 2626978647194791758}
+    - target: {fileID: 3248214054272356771, guid: 4c9cd76ae8612f04ba906ea6a0706f10,
+        type: 3}
+      propertyPath: orthographic size
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c9cd76ae8612f04ba906ea6a0706f10, type: 3}
 --- !u!4 &1678737953 stripped
