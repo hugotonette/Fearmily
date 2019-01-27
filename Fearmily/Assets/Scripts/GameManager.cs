@@ -9,10 +9,10 @@ public class GameManager : MonoBehaviour
     //public GameObject MainCanvas;
     public int tempo = 1;
     // Start is called before the first frame update
-
+    
 
     void Awake(){
-        StartCoroutine(Wait(tempo));
+        StartCoroutine("Wait");
     }
     void Start()
     {
@@ -40,6 +40,12 @@ public class GameManager : MonoBehaviour
             }
         }
 
+        if (Input.GetKeyDown(KeyCode.E)) // aperta espaço para pausar o jogo
+        {
+            StopCoroutine("Wait");
+            Debug.Log("Parou coroutina");
+        }
+
         if (pl_stats.vivo == false)
         {
             perdeu();
@@ -59,7 +65,7 @@ public class GameManager : MonoBehaviour
         UnityEngine.SceneManagement.SceneManager.LoadScene("StartMenu");
     }
 
-    IEnumerator Wait(int tempo)
+    public IEnumerator Wait()
     {
         yield return new WaitForSeconds(tempo);
         SanityDecrease();
@@ -68,7 +74,21 @@ public class GameManager : MonoBehaviour
     public void SanityDecrease(){
         Debug.Log(pl_stats.sanity);
         pl_stats.sanity--;
-        StartCoroutine(Wait(tempo));
+        StartCoroutine("Wait");
+    }
+
+    public void safezone(bool var){
+        if(var == true){
+            StopCoroutine("Wait");
+            Debug.Log("Parou coroutina");
+        }
+        else{
+            StartCoroutine("Wait");
+            Debug.Log("Recomecou corourtina");
+        }
+        while(pl_stats.sanity < 100){
+            pl_stats.sanity++;
+        }
     }
 
 
