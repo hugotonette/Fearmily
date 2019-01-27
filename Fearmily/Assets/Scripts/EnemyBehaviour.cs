@@ -19,7 +19,7 @@ public class EnemyBehaviour : MonoBehaviour
 
     void Awake(){
         //_sprite = enemySprite.GetComponent<SpriteRenderer>();
-        _brotherSprite = GameObject.Find("irmao-pb");
+        _brotherSprite = GameObject.Find("Brother");
     }
 
     void FixedUpdate(){

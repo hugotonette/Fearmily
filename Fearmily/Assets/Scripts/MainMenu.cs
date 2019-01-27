@@ -7,7 +7,6 @@ using UnityEngine.UI;
 public class MainMenu : MonoBehaviour {
 
     public GameObject MenuCanvas;
-    public GameObject SettingsCanvas;
     public static MainMenu instance;
 
     private void Awake()
@@ -35,13 +34,7 @@ public class MainMenu : MonoBehaviour {
 
     public void PlayGame()
     {
-        SceneManager.LoadScene("Main");
-    }
-
-    public void SettingsGame()
-    {
-        SettingsCanvas.SetActive(true);
-        MenuCanvas.SetActive(false);
+        SceneManager.LoadScene("final");
     }
 
     public void GoToMainMenu()

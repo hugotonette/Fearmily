@@ -17,6 +17,18 @@ ScriptedImporter:
     100024: "canela direita_GO/canela direita_GO/p\xE9 dreito"
     100026: "canela direita_GO/canela direita_GO/p\xE9 esquerdo"
     100028: canela direita_GO/canela direita_GO/torso
+    100030: canela direita_GO/canela direita_GO/bone_1
+    100032: canela direita_GO/canela direita_GO/bone_1/bone_2
+    100034: canela direita_GO/canela direita_GO/bone_1/bone_2/bone_3
+    100036: canela direita_GO/canela direita_GO/bone_1/bone_2/bone_3/bone_4
+    100038: canela direita_GO/canela direita_GO/bone_1/bone_2/bone_5
+    100040: canela direita_GO/canela direita_GO/bone_1/bone_2/bone_5/bone_6
+    100042: canela direita_GO/canela direita_GO/bone_1/bone_7
+    100044: canela direita_GO/canela direita_GO/bone_1/bone_7/bone_8
+    100046: canela direita_GO/canela direita_GO/bone_1/bone_7/bone_8/bone_9
+    100048: canela direita_GO/canela direita_GO/bone_1/bone_10
+    100050: canela direita_GO/canela direita_GO/bone_1/bone_10/bone_11
+    100052: canela direita_GO/canela direita_GO/bone_1/bone_10/bone_11/bone_12
     400000: canela direita_GO/canela direita_GO/Transform
     400002: "canela direita_GO/canela direita_GO/antebra\xE7o direito/Transform"
     400004: "canela direita_GO/canela direita_GO/antebra\xE7o esquerdo/Transform"
@@ -32,7 +44,33 @@ ScriptedImporter:
     400024: "canela direita_GO/canela direita_GO/p\xE9 dreito/Transform"
     400026: "canela direita_GO/canela direita_GO/p\xE9 esquerdo/Transform"
     400028: canela direita_GO/canela direita_GO/torso/Transform
+    400030: canela direita_GO/canela direita_GO/bone_1/Transform
+    400032: canela direita_GO/canela direita_GO/bone_1/bone_2/Transform
+    400034: canela direita_GO/canela direita_GO/bone_1/bone_2/bone_3/Transform
+    400036: canela direita_GO/canela direita_GO/bone_1/bone_2/bone_3/bone_4/Transform
+    400038: canela direita_GO/canela direita_GO/bone_1/bone_2/bone_5/Transform
+    400040: canela direita_GO/canela direita_GO/bone_1/bone_2/bone_5/bone_6/Transform
+    400042: canela direita_GO/canela direita_GO/bone_1/bone_7/Transform
+    400044: canela direita_GO/canela direita_GO/bone_1/bone_7/bone_8/Transform
+    400046: canela direita_GO/canela direita_GO/bone_1/bone_7/bone_8/bone_9/Transform
+    400048: canela direita_GO/canela direita_GO/bone_1/bone_10/Transform
+    400050: canela direita_GO/canela direita_GO/bone_1/bone_10/bone_11/Transform
+    400052: canela direita_GO/canela direita_GO/bone_1/bone_10/bone_11/bone_12/Transform
     2800000: pai
+    11400000: "canela direita_GO/canela direita_GO/antebra\xE7o direito/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin"
+    11400002: "canela direita_GO/canela direita_GO/antebra\xE7o esquerdo/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin"
+    11400004: "canela direita_GO/canela direita_GO/bra\xE7o direito/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin"
+    11400006: "canela direita_GO/canela direita_GO/bra\xE7o esquerdo/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin"
+    11400008: "canela direita_GO/canela direita_GO/cabe\xE7a/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin"
+    11400010: canela direita_GO/canela direita_GO/canela direita/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+    11400012: canela direita_GO/canela direita_GO/canela esquerda/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+    11400014: canela direita_GO/canela direita_GO/coxa direita/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+    11400016: canela direita_GO/canela direita_GO/coxa esquerda/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+    11400018: "canela direita_GO/canela direita_GO/m\xE3o direita/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin"
+    11400020: "canela direita_GO/canela direita_GO/m\xE3o esquerda/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin"
+    11400022: "canela direita_GO/canela direita_GO/p\xE9 dreito/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin"
+    11400024: "canela direita_GO/canela direita_GO/p\xE9 esquerdo/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin"
+    11400026: canela direita_GO/canela direita_GO/torso/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
     21200000: "canela direita_GO/canela direita_GO/antebra\xE7o direito/SpriteRenderer"
     21200002: "canela direita_GO/canela direita_GO/antebra\xE7o esquerdo/SpriteRenderer"
     21200004: "canela direita_GO/canela direita_GO/bra\xE7o direito/SpriteRenderer"
@@ -4879,7 +4917,7 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 
+    spriteID: 00000000000000000000000000000000
     layerID: 17
     mosaicPosition: {x: 0, y: 0}
   - name: "m\xE3o direita"
@@ -5142,5 +5180,29 @@ ScriptedImporter:
       spriteId: b94d425ab654c524593e1e925a9320c4
       bones: 0b0000000a00000009000000
     dimension: {x: 0, y: 0}
-  boneGOs: []
+  boneGOs:
+  - go: {fileID: 100030, guid: 7909d2a29c407884b887f568506566a6, type: 3}
+    index: 0
+  - go: {fileID: 100032, guid: 7909d2a29c407884b887f568506566a6, type: 3}
+    index: 1
+  - go: {fileID: 100034, guid: 7909d2a29c407884b887f568506566a6, type: 3}
+    index: 2
+  - go: {fileID: 100036, guid: 7909d2a29c407884b887f568506566a6, type: 3}
+    index: 3
+  - go: {fileID: 100038, guid: 7909d2a29c407884b887f568506566a6, type: 3}
+    index: 4
+  - go: {fileID: 100040, guid: 7909d2a29c407884b887f568506566a6, type: 3}
+    index: 5
+  - go: {fileID: 100042, guid: 7909d2a29c407884b887f568506566a6, type: 3}
+    index: 6
+  - go: {fileID: 100044, guid: 7909d2a29c407884b887f568506566a6, type: 3}
+    index: 7
+  - go: {fileID: 100046, guid: 7909d2a29c407884b887f568506566a6, type: 3}
+    index: 8
+  - go: {fileID: 100048, guid: 7909d2a29c407884b887f568506566a6, type: 3}
+    index: 9
+  - go: {fileID: 100050, guid: 7909d2a29c407884b887f568506566a6, type: 3}
+    index: 10
+  - go: {fileID: 100052, guid: 7909d2a29c407884b887f568506566a6, type: 3}
+    index: 11
   generateGOHierarchy: 0

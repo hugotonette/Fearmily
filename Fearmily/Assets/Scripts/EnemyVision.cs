@@ -9,7 +9,7 @@ public class EnemyVision : MonoBehaviour
     public int sanity_damage = 20;
     private bool invencibility = false;
     private Collider2D pl_col;
-    public GameObject esporro;
+    private GameObject esporro;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,11 +19,15 @@ public class EnemyVision : MonoBehaviour
 
 
     }
+    private void Awake()
+    {
+        esporro = GameObject.Find("Esporro");
+    }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
 

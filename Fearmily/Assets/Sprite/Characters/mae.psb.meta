@@ -15,6 +15,22 @@ ScriptedImporter:
     100020: "bra\xE7o direito_GO/bra\xE7o direito_GO/p\xE9 direito"
     100022: "bra\xE7o direito_GO/bra\xE7o direito_GO/p\xE9 esquerdo"
     100024: "bra\xE7o direito_GO/bra\xE7o direito_GO/torso"
+    100026: "bra\xE7o direito_GO/bra\xE7o direito_GO/bone_7"
+    100028: "bra\xE7o direito_GO/bra\xE7o direito_GO/bone_7/bone_8"
+    100030: "bra\xE7o direito_GO/bra\xE7o direito_GO/bone_7/bone_8/bone_9"
+    100032: "bra\xE7o direito_GO/bra\xE7o direito_GO/bone_7/bone_8/bone_9/bone_10"
+    100034: "bra\xE7o direito_GO/bra\xE7o direito_GO/bone_7/bone_8/bone_9/bone_11"
+    100036: "bra\xE7o direito_GO/bra\xE7o direito_GO/bone_7/bone_8/bone_9/bone_11/bone_12"
+    100038: "bra\xE7o direito_GO/bra\xE7o direito_GO/bone_7/bone_8/bone_9/bone_11/bone_12/bone_13"
+    100040: "bra\xE7o direito_GO/bra\xE7o direito_GO/bone_7/bone_8/bone_9/bone_14"
+    100042: "bra\xE7o direito_GO/bra\xE7o direito_GO/bone_7/bone_8/bone_9/bone_14/bone_15"
+    100044: "bra\xE7o direito_GO/bra\xE7o direito_GO/bone_7/bone_8/bone_9/bone_14/bone_15/bone_16"
+    100046: "bra\xE7o direito_GO/bra\xE7o direito_GO/bone_7/bone_17"
+    100048: "bra\xE7o direito_GO/bra\xE7o direito_GO/bone_7/bone_17/bone_18"
+    100050: "bra\xE7o direito_GO/bra\xE7o direito_GO/bone_7/bone_17/bone_18/bone_19"
+    100052: "bra\xE7o direito_GO/bra\xE7o direito_GO/bone_7/bone_20"
+    100054: "bra\xE7o direito_GO/bra\xE7o direito_GO/bone_7/bone_20/bone_21"
+    100056: "bra\xE7o direito_GO/bra\xE7o direito_GO/bone_7/bone_20/bone_21/bone_22"
     400000: "bra\xE7o direito_GO/bra\xE7o direito_GO/Transform"
     400002: "bra\xE7o direito_GO/bra\xE7o direito_GO/antebra\xE7o direito/Transform"
     400004: "bra\xE7o direito_GO/bra\xE7o direito_GO/antebra\xE7o esquerdo/Transform"
@@ -28,7 +44,35 @@ ScriptedImporter:
     400020: "bra\xE7o direito_GO/bra\xE7o direito_GO/p\xE9 direito/Transform"
     400022: "bra\xE7o direito_GO/bra\xE7o direito_GO/p\xE9 esquerdo/Transform"
     400024: "bra\xE7o direito_GO/bra\xE7o direito_GO/torso/Transform"
+    400026: "bra\xE7o direito_GO/bra\xE7o direito_GO/bone_7/Transform"
+    400028: "bra\xE7o direito_GO/bra\xE7o direito_GO/bone_7/bone_8/Transform"
+    400030: "bra\xE7o direito_GO/bra\xE7o direito_GO/bone_7/bone_8/bone_9/Transform"
+    400032: "bra\xE7o direito_GO/bra\xE7o direito_GO/bone_7/bone_8/bone_9/bone_10/Transform"
+    400034: "bra\xE7o direito_GO/bra\xE7o direito_GO/bone_7/bone_8/bone_9/bone_11/Transform"
+    400036: "bra\xE7o direito_GO/bra\xE7o direito_GO/bone_7/bone_8/bone_9/bone_11/bone_12/Transform"
+    400038: "bra\xE7o direito_GO/bra\xE7o direito_GO/bone_7/bone_8/bone_9/bone_11/bone_12/bone_13/Transform"
+    400040: "bra\xE7o direito_GO/bra\xE7o direito_GO/bone_7/bone_8/bone_9/bone_14/Transform"
+    400042: "bra\xE7o direito_GO/bra\xE7o direito_GO/bone_7/bone_8/bone_9/bone_14/bone_15/Transform"
+    400044: "bra\xE7o direito_GO/bra\xE7o direito_GO/bone_7/bone_8/bone_9/bone_14/bone_15/bone_16/Transform"
+    400046: "bra\xE7o direito_GO/bra\xE7o direito_GO/bone_7/bone_17/Transform"
+    400048: "bra\xE7o direito_GO/bra\xE7o direito_GO/bone_7/bone_17/bone_18/Transform"
+    400050: "bra\xE7o direito_GO/bra\xE7o direito_GO/bone_7/bone_17/bone_18/bone_19/Transform"
+    400052: "bra\xE7o direito_GO/bra\xE7o direito_GO/bone_7/bone_20/Transform"
+    400054: "bra\xE7o direito_GO/bra\xE7o direito_GO/bone_7/bone_20/bone_21/Transform"
+    400056: "bra\xE7o direito_GO/bra\xE7o direito_GO/bone_7/bone_20/bone_21/bone_22/Transform"
     2800000: mae
+    11400000: "bra\xE7o direito_GO/bra\xE7o direito_GO/antebra\xE7o direito/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin"
+    11400002: "bra\xE7o direito_GO/bra\xE7o direito_GO/antebra\xE7o esquerdo/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin"
+    11400004: "bra\xE7o direito_GO/bra\xE7o direito_GO/bra\xE7o direito/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin"
+    11400006: "bra\xE7o direito_GO/bra\xE7o direito_GO/bra\xE7o esquerdo/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin"
+    11400008: "bra\xE7o direito_GO/bra\xE7o direito_GO/cabe\xE7a/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin"
+    11400010: "bra\xE7o direito_GO/bra\xE7o direito_GO/canela direita/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin"
+    11400012: "bra\xE7o direito_GO/bra\xE7o direito_GO/canela esquerda/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin"
+    11400014: "bra\xE7o direito_GO/bra\xE7o direito_GO/coxa direita/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin"
+    11400016: "bra\xE7o direito_GO/bra\xE7o direito_GO/coxa esquerda/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin"
+    11400018: "bra\xE7o direito_GO/bra\xE7o direito_GO/p\xE9 direito/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin"
+    11400020: "bra\xE7o direito_GO/bra\xE7o direito_GO/p\xE9 esquerdo/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin"
+    11400022: "bra\xE7o direito_GO/bra\xE7o direito_GO/torso/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin"
     21200000: "bra\xE7o direito_GO/bra\xE7o direito_GO/antebra\xE7o direito/SpriteRenderer"
     21200002: "bra\xE7o direito_GO/bra\xE7o direito_GO/antebra\xE7o esquerdo/SpriteRenderer"
     21200004: "bra\xE7o direito_GO/bra\xE7o direito_GO/bra\xE7o direito/SpriteRenderer"
@@ -4585,5 +4629,37 @@ ScriptedImporter:
       spriteId: d45aa46078b202847a50fc2609448ebf
       bones: 0700000008000000
     dimension: {x: 0, y: 0}
-  boneGOs: []
+  boneGOs:
+  - go: {fileID: 100026, guid: 1b1b4c80e43879b43a8137ee6ffee12b, type: 3}
+    index: 0
+  - go: {fileID: 100028, guid: 1b1b4c80e43879b43a8137ee6ffee12b, type: 3}
+    index: 1
+  - go: {fileID: 100030, guid: 1b1b4c80e43879b43a8137ee6ffee12b, type: 3}
+    index: 2
+  - go: {fileID: 100032, guid: 1b1b4c80e43879b43a8137ee6ffee12b, type: 3}
+    index: 3
+  - go: {fileID: 100034, guid: 1b1b4c80e43879b43a8137ee6ffee12b, type: 3}
+    index: 4
+  - go: {fileID: 100036, guid: 1b1b4c80e43879b43a8137ee6ffee12b, type: 3}
+    index: 5
+  - go: {fileID: 100038, guid: 1b1b4c80e43879b43a8137ee6ffee12b, type: 3}
+    index: 6
+  - go: {fileID: 100040, guid: 1b1b4c80e43879b43a8137ee6ffee12b, type: 3}
+    index: 7
+  - go: {fileID: 100042, guid: 1b1b4c80e43879b43a8137ee6ffee12b, type: 3}
+    index: 8
+  - go: {fileID: 100044, guid: 1b1b4c80e43879b43a8137ee6ffee12b, type: 3}
+    index: 9
+  - go: {fileID: 100046, guid: 1b1b4c80e43879b43a8137ee6ffee12b, type: 3}
+    index: 10
+  - go: {fileID: 100048, guid: 1b1b4c80e43879b43a8137ee6ffee12b, type: 3}
+    index: 11
+  - go: {fileID: 100050, guid: 1b1b4c80e43879b43a8137ee6ffee12b, type: 3}
+    index: 12
+  - go: {fileID: 100052, guid: 1b1b4c80e43879b43a8137ee6ffee12b, type: 3}
+    index: 13
+  - go: {fileID: 100054, guid: 1b1b4c80e43879b43a8137ee6ffee12b, type: 3}
+    index: 14
+  - go: {fileID: 100056, guid: 1b1b4c80e43879b43a8137ee6ffee12b, type: 3}
+    index: 15
   generateGOHierarchy: 0
