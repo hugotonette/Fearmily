@@ -539,6 +539,11 @@ PrefabInstance:
       propertyPath: PlayerControl
       value: 
       objectReference: {fileID: 262488450}
+    - target: {fileID: 6434541551911324556, guid: 4c9cd76ae8612f04ba906ea6a0706f10,
+        type: 3}
+      propertyPath: sanity_bar
+      value: 
+      objectReference: {fileID: 6206048183033795915}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c9cd76ae8612f04ba906ea6a0706f10, type: 3}
 --- !u!4 &1678737953 stripped
@@ -890,6 +895,16 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8238395265277819515, guid: 367f527a6facb554ab94f1627e587cd7,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -128
+      objectReference: {fileID: 0}
+    - target: {fileID: 8238395265277819515, guid: 367f527a6facb554ab94f1627e587cd7,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 130
+      objectReference: {fileID: 0}
     - target: {fileID: 8238395265741796770, guid: 367f527a6facb554ab94f1627e587cd7,
         type: 3}
       propertyPath: m_AnchorMax.x
@@ -903,7 +918,7 @@ PrefabInstance:
     - target: {fileID: 6206048183144531753, guid: 367f527a6facb554ab94f1627e587cd7,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6206048184160945506, guid: 367f527a6facb554ab94f1627e587cd7,
         type: 3}
@@ -918,6 +933,18 @@ PrefabInstance:
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 367f527a6facb554ab94f1627e587cd7, type: 3}
+--- !u!114 &6206048183033795915 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8238395265277819396, guid: 367f527a6facb554ab94f1627e587cd7,
+    type: 3}
+  m_PrefabInstance: {fileID: 6206048183033795914}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -113659843, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!65 &7893572071972717592
 BoxCollider:
   m_ObjectHideFlags: 0
