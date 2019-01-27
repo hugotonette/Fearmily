@@ -27,11 +27,6 @@ public class MainMenu : MonoBehaviour {
         Application.Quit();
     }
 
-    public void restart()
-    {
-        PlayGame();
-    }
-
     public void PlayGame()
     {
         SceneManager.LoadScene("final");
@@ -44,6 +39,6 @@ public class MainMenu : MonoBehaviour {
 
     public void LoadCredits()
     {
-        SceneManager.LoadScene("creditos");
+        SceneManager.LoadScene("Creditos");
     }
 }
