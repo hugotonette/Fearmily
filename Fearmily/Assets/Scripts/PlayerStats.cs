@@ -9,6 +9,7 @@ public class PlayerStats : MonoBehaviour
     public bool vivo = true;
     public bool win = false;
     public Slider sanity_bar;
+
     // Start is called before the first frame update
 
     void Start()
