@@ -8,7 +8,6 @@ public class PlayerStats : MonoBehaviour
     public int sanity = 100;
     public bool vivo = true;
     public bool win = false;
-    public Collider2D safe_space;
     public Slider sanity_bar;
     // Start is called before the first frame update
 

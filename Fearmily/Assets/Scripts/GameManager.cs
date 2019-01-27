@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
     private PlayerStats pl_stats;
     public GameObject PauseCanvas;
     //public GameObject MainCanvas;
-    public int tempo = 100;
+    public int tempo = 10;
     // Start is called before the first frame update
 
 
@@ -66,6 +66,7 @@ public class GameManager : MonoBehaviour
     }
 
     public void SanityDecrease(){
+        Debug.Log(pl_stats.sanity);
         pl_stats.sanity--;
         StartCoroutine(Wait(tempo));
     }
