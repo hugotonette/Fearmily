@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
     private PlayerStats pl_stats;
     public GameObject PauseCanvas;
     //public GameObject MainCanvas;
-    public int tempo = 10;
+    public int tempo = 1;
     // Start is called before the first frame update
 
 

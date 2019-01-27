@@ -6,19 +6,16 @@ public class EnemyVision : MonoBehaviour
 {
     private GameObject player;
     private PlayerStats pl_stats;
-    private int sanity_damage = 2;
-    private int invicibility_timer = 10000;
+    public int sanity_damage = 20;
     private bool invencibility = false;
     private Collider2D pl_col;
-    private GameObject esporro;
+    public GameObject esporro;
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.Find("Player");
         pl_stats = player.transform.GetComponent<PlayerStats>();
         pl_col = player.GetComponent<Collider2D>();
-        //esporro = GameObject.Find("BrotherFound");
-        //esporro.SetActive(true);
 
 
     }
@@ -46,10 +43,10 @@ public class EnemyVision : MonoBehaviour
         }
         invencibility = true;
         Time.timeScale = 0f;
-        //esporro.SetActive(true);
-        StartCoroutine(Wait(2));
-        //esporro.SetActive(false);
-        Time.timeScale = 1f;
+        esporro.SetActive(true); ;
+        StartCoroutine(Wait(4));
+        
+
 
     }
     public void OnTriggerExit2D(Collider2D collision)
@@ -59,8 +56,10 @@ public class EnemyVision : MonoBehaviour
     }
 
     IEnumerator Wait(int tempo)
-    {
-        yield return new WaitForSeconds(tempo);
+    { 
+        yield return new WaitForSecondsRealtime(tempo);
+        esporro.SetActive(false);
+        Time.timeScale = 1f;
     }
 
 
