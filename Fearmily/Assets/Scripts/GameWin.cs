@@ -5,12 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class GameWin : MonoBehaviour
 {
-	private void OnTriggerEnter2D(Collider2D col)
+	public void OnTriggerEnter2D(Collider2D col)
 	{
-		if (col.tag == "Player")
-		{
-			Debug.Log("ping");
-			SceneManager.LoadScene("Final");
-		}
-	}
+		Debug.Log("ping");
+        SceneManager.LoadScene("Ending");
+        //SceneManager.LoadScene("Final");
+    }
 }
