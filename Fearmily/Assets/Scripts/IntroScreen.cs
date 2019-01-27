@@ -9,6 +9,7 @@ public class IntroScreen : MonoBehaviour
 	public GameObject Intro1;
 	public GameObject Intro2;
 	public GameObject Intro3;
+	public GameObject Tutorial;
 
 	public int Timer = 5;
 
@@ -21,6 +22,9 @@ public class IntroScreen : MonoBehaviour
 		Intro2.SetActive(false);
 		Intro3.SetActive(true);
 		yield return new WaitForSeconds(Timer);
+		Intro3.SetActive(false);
+		Tutorial.SetActive(true);
+		yield return new WaitForSeconds(Timer * 2);
 		SceneManager.LoadScene("Main");
 	}
 
