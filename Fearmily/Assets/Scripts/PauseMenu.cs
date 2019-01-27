@@ -29,7 +29,6 @@ public class PauseMenu : MonoBehaviour {
     {
         Time.timeScale = 1f;
         PauseCanvas.SetActive(false);
-        //MainCanvas.SetActive(true);
 
     }
 
